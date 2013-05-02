@@ -1,0 +1,70 @@
+body
+{
+	font-family: sans;
+	font-size:23px;
+	font-style: italic;
+}
+.headerLine
+{
+	padding: 0;
+}
+.headerImg span.bigWhite 
+{
+	font-size: 25px;
+	top: 70px;
+	left: 110px;
+}
+.headerImg span.smallGray 
+{
+	font-size: 15px;
+	left: 100px;
+}
+.headerLine
+{
+    border: none; /* Убираем исходную границу */
+    border-top: 1px solid LightGray; /* Параметры линии  */
+    margin-right: 13%;
+    margin-top: 4px;
+}
+.description
+{
+	overflow: hidden;
+}
+.greyLine, .blackLine
+{
+	padding-top:4px;
+	font-size:14px;
+}
+footer hr
+{
+	 border: none; /* Убираем исходную границу */
+    border-top: 1px solid LightGray; /* Параметры линии  */
+    margin: 2%;
+}
+.description p:nth-child(1)
+{
+	font-size:18px;
+}
+.description p:nth-child(2)
+{
+	font-size:15px;
+}
+.leftNav a, .rightNav a
+{
+	font-family: sans;
+	font-size:17px;
+
+	font-style: normal;
+}
+.description h1
+{
+	margin: 5px;
+}
+.leftNav
+{
+	width: 130px;
+}
+menu a.li
+{
+	color: gray;
+}
